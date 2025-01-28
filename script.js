@@ -7,12 +7,7 @@ function sorteador() {
     const players = playersInput.split("\n").filter(player => player.trim() !== "");
     const numberPlayers = document.querySelector (".numberPlayers")
 
-    // if (players.length === 0) {
-    //     alert("Por favor, insira os nomes dos jogadores.");
-    //     return;
-    // } else if (players.length < 6) {
-    //     alert("Por Favor, insira no minimo 6 Jogadores")
-    // }
+ 
 
 
     if( numberPlayers.value === 0 || players.length < numberPlayers.value ){
