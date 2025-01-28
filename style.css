@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", serif;
+}
+
+body {
+    background: url("https://picsum.photos/1600/900");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section{
+    width:220px ;
+    margin-bottom: 10px;
+    
+}
+
+.numberPlayers{
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#player {
+    width: 300px;
+    height: 200px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #bfd255;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+
+}
+
+.output {
+    margin-top: 20px;
+    text-align: left;
+    width: 330px;
+    transform: translateX(100vw);
+    transition: 0.5s;
+    display: grid;
+    grid-template-columns: 90px 100px 10px;
+    gap: 20px;
+    
+
+}
+
+.team {
+   
+    margin-bottom: 20px;
+    color: black;
+    width: 100px;
+    background-color: white;
+    text-transform: capitalize;
+    text-align: center;
+    
+ 
+    
+   
+        
+
+
+    & p {
+        line-height: 30px;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: 90px 100px 10px;
+       
+    }
+
+ 
+
+  
+}
+
+.leftover {
+    
+    color: red;
+    background-color: white;
+    text-transform: capitalize;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+
+    & p{
+        color: black;
+    }
+    
+    & h3{
+        text-align: center;
+    }
+  
+    
+    
+    
+}
