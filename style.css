@@ -101,6 +101,11 @@ button:hover {
   
 }
 
+.playerOver{
+    transform: translateX(100vw);
+    transition: 0.8s;
+}
+
 .leftover {
     
     color: red;
@@ -111,6 +116,7 @@ button:hover {
     flex-direction: column;
     position: relative;
     bottom: 0;
+   
 
     & p{
         color: black;
